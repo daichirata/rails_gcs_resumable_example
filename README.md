@@ -1,24 +1,16 @@
-# README
+# GCS resumable upload example with Rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Example for doing resumable upload of GCS with Rails.
 
-Things you may want to cover:
+## Configuration
 
-* Ruby version
+environment variables
 
-* System dependencies
+* `GOOGLE_CLOUD_PROJECT`
+  * GCP project name.
+* `GOOGLE_CLOUD_KEYFILE` or `GOOGLE_CLOUD_KEYFILE_JSON`
+  * `GOOGLE_CLOUD_KEYFILE`: Path of GCS service account credentials JSON file.
+  * `GOOGLE_CLOUD_KEYFILE_JSON`: Text of GCS service account credentials JSON file.
+* `GCS_BUCKET`
+  * Upload GCS bucket name.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
